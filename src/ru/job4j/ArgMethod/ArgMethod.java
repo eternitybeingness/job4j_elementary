@@ -3,7 +3,7 @@ package ru.job4j.ArgMethod;
 public class ArgMethod {
 
     public static void hello(String name, int age) {
-        System.out.println("Hello, " + name);
+        System.out.println("Hello, " + name + ". Вам уже " + age + " :-)");
     }
 
     public static void main(String[] args) {
