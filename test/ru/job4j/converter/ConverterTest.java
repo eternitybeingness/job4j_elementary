@@ -14,7 +14,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert0RblThen2Euro() {
+    public void whenConvert0RblThen0Euro() {
         int in = 0;
         int expected = 0;
         int out = Converter.rubleToEuro(in);
