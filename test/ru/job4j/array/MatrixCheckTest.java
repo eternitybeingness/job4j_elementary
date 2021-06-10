@@ -45,7 +45,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {' ', ' ', 'X'},
                 {' ', ' ', 'X'},
-                {' ', ' '},
+                {' ', ' ', ' '},
         };
         int column = 2;
         boolean result = MatrixCheck.monoVertical(input, column);
@@ -63,17 +63,5 @@ public class MatrixCheckTest {
         int column = 2;
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertTrue(result);
-    }
-
-        @Test
-        public void whenHasMonoVerticalTrue3xdiff() {
-            char[][] input = {
-                    {' ', ' ', 'X'},
-                    {' ', ' ', 'X', ' ', ' '},
-                    {' ', ' ', 'X', ' '},
-            };
-            int column = 2;
-            boolean result = MatrixCheck.monoVertical(input, column);
-            Assert.assertTrue(result);
     }
 }
